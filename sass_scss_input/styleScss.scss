@@ -1,0 +1,9 @@
+@mixin reset {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    @include reset;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
