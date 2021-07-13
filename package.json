@@ -4,11 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "translate": "sass ./sass_scss_input/:./css/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Henrry G",
   "license": "ISC",
   "dependencies": {
-    "sass": "^1.35.2"
+    "sass": "^1.35.2",
+    "scss": "^0.2.4"
   }
 }
